@@ -1,0 +1,104 @@
+/* General Form Styles */
+.ui.form {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+ 
+.error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+ 
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  .ui.form .field {
+    margin-bottom: 15px;
+  }
+  
+  .ui.form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .ui.form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #666;
+  }
+  
+  .ui.form input[type="text"],
+  .ui.form input[type="email"],
+  .ui.form input[type="date"],
+  .ui.form input[type="password"] {
+    background-color: #f9f9f9;
+  }
+  
+  .ui.form input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .ui.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ui.form button:hover {
+    background-color: #45a049;
+  }
+  
+  .ui.form button:focus {
+    outline: none;
+  }
+  
+  /* Password and Confirm Password Styles */
+  .ui.form .field input[type="password"] {
+    background-color: #f9f9f9;
+  }
+  
+  .ui.form .field input[type="password"]:focus {
+    border-color: #f44336;
+  }
+  
+  .ui.form .field input[type="password"]:valid {
+    border-color: #4CAF50;
+  }
+  
+  /* Error Alert */
+  .ui.form .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
